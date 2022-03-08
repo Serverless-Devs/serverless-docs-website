@@ -1,4 +1,5 @@
 import theme from "./index";
+import redirectSSL from 'redirect-ssl'
 
 export default theme({
   telemetry: false,
@@ -24,4 +25,5 @@ export default theme({
     defaultLocale: "zh",
   },
   buildModules: ["@nuxtjs/composition-api/module", "@nuxt/typescript-build"],
+  serverMiddleware: ["redirect-ssl"],
 });
