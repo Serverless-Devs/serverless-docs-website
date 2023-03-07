@@ -71,7 +71,7 @@
                   <a href="http://www.devsapp.cn/faq.html" class="dropdown-item">常见问答</a>
                 </div>
               </li>
-              <li class="nav-item dropdown">
+              <!-- <li class="nav-item dropdown">
                 <a href="http://i.serverless-devs.com/article" class="nav-link" data-toggle="dropdown" role="button">
                   <i class="ni ni-collection d-lg-none"></i>
                   <span class="nav-link-inner--text"><b>Serverless 社区</b></span>
@@ -81,7 +81,7 @@
                   <a href="http://i.serverless-devs.com/" class="dropdown-item">社区首页</a>
                   <a href="http://i.serverless-devs.com/portal.php?mod=list&catid=20" class="dropdown-item">社区专栏</a>
                 </div>
-              </li>
+              </li> -->
               <li class="nav-item dropdown">
                 <a href="http://i.serverless-devs.com/portal.php?mod=list&catid=6" class="nav-link" role="button">
                   <i class="ni ni-collection d-lg-none"></i>
