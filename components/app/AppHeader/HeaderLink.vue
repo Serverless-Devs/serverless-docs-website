@@ -83,6 +83,7 @@ export default defineComponent({
           if (hasActive) {
             link.active = true;
           }
+          link.items = _.filter(link.items, (item) => (!item.isHide))
         }
       });
       return links;

@@ -195,7 +195,7 @@
               <div class="row row-grid">
                 <div class="col-lg-4">
                   <div class="card card-lift--hover shadow border-0">
-                    <a href="/fc/readme" class="card-body py-5">
+                    <a href="/fc3/readme" class="card-body py-5">
                       <h3 class="text" style="color: black"><b>函数计算（FC）</b>
                       </h3>
                       <p class="description mt-3"><b>🔥🔥🔥 阿里云函数计算（FC）组件文档</b>

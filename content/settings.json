@@ -59,6 +59,13 @@
           "divided": true
         },
         {
+          "title": "函数计算(FC)组件",
+          "en_title": "Aliyun FC",
+          "slug": "fc",
+          "to": "/fc/readme",
+          "isHide": true
+        },
+        {
           "title": "AWS Lambda",
           "en_title": "AWS Lambda",
           "slug": "lambda",
