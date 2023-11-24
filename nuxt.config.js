@@ -51,20 +51,20 @@ export default theme({
       routes.push(...redirect)
     }
   },  
-  head() {
-    return {
-      script: [
-        {
-          innerHTML: "window.__rum = { pid: 'aokcdqn3ly@f609801600af959', endpoint: 'https://aokcdqn3ly-default-cn.rum.aliyuncs.com' }",
-          type: 'text/javascript',
-        },
-        {
-          src: 'https://sdk.rum.aliyuncs.com/v2/browser-sdk.js',
-          type: 'text/javascript',
-          crossorigin: 'anonymous',
-        }
-      ],
-      __dangerouslyDisableSanitizers: ['script']
-    }
-  }
+  // head() {
+  //   return {
+  //     script: [
+  //       {
+  //         innerHTML: "window.__rum = { pid: 'aokcdqn3ly@f609801600af959', endpoint: 'https://aokcdqn3ly-default-cn.rum.aliyuncs.com' }",
+  //         type: 'text/javascript',
+  //       },
+  //       {
+  //         src: 'https://sdk.rum.aliyuncs.com/v2/browser-sdk.js',
+  //         type: 'text/javascript',
+  //         crossorigin: 'anonymous',
+  //       }
+  //     ],
+  //     __dangerouslyDisableSanitizers: ['script']
+  //   }
+  // }
 });
