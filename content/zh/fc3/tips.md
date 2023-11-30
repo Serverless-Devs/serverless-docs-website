@@ -144,7 +144,7 @@ resources:
 - 本地测试可以通过类似[dotenv](https://www.npmjs.com/package/dotenv)库来读取`.env`环境变量
 - 在 FC 环境线上执行时候，会将环境变量直接注入到当前进程，NodeJS 应用可以通过`process.env.AccessKeyID`直接获取环境变量。
 
-## Yaml是否支持全局变量/环境变量/引用外部文件
+## Yaml 是否支持全局变量/环境变量/引用外部文件
 
 Serverless Devs 的 Yaml 规范本身支持全局变量、环境变量以及外部内容的引入：
 
